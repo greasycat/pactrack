@@ -1,0 +1,29 @@
+# Pactrack example configuration
+# Copy to ~/.config/pactrack/config.toml and adjust values.
+
+# Refresh interval in minutes.
+poll_minutes = 30
+
+# Send desktop notifications only when pending update count changes.
+notify_on_change = true
+
+# Enable AUR checks.
+enable_aur = true
+
+# Terminal launcher.
+# Use "auto" to detect from $TERMINAL then fallback list.
+# Or set a custom command, e.g. "kitty" or "gnome-terminal".
+terminal = "auto"
+
+# Official update check command.
+# "auto" uses built-in Rust check flow.
+# You can override with a custom command if needed.
+official_check_cmd = "auto"
+
+# AUR helper mode: auto | paru | yay | none
+aur_helper = "auto"
+
+# Upgrade command.
+# "auto" uses helper-aware defaults.
+# You can override with a custom full command string.
+upgrade_cmd = "auto"
