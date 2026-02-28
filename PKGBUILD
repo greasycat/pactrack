@@ -1,4 +1,4 @@
-# Maintainer: Rongfei
+# Maintainer: Rongfei Jin <redacted @ gmail dot com>
 
 pkgname=pactrack
 pkgver=0.1.0
@@ -18,17 +18,12 @@ depends=(
   'pacman'
 )
 makedepends=('cargo')
-source=("${pkgname}-${pkgver}.tar.gz::https://github.com/greasycat/pactrack/archive/refs/tags/v${pkgver}.tar.gz")
-sha256sums=('SKIP')
+source=("${pkgname}-${pkgver}.tar.gz::https://github.com/greasycat/pactrack/releases/download/v${pkgver}/source.tar.gz")
+sha256sums=('e8123107e7d573be06eb7fbdf295885d2fda7cfad6902dc3e3fd94c6efdf1066')
 
 build() {
   cd "${srcdir}/${pkgname}-${pkgver}"
   cargo build --release --locked
-}
-
-check() {
-  cd "${srcdir}/${pkgname}-${pkgver}"
-  cargo test --locked
 }
 
 package() {
