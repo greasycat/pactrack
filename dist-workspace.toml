@@ -13,5 +13,5 @@ installers = []
 targets = ["aarch64-unknown-linux-gnu", "x86_64-unknown-linux-gnu"]
 
 [dist.dependencies.apt]
-libglib2.0-dev = "*"
-libgtk-3-dev = "*"
+"libglib2.0-dev" = "*"
+"libgtk-3-dev" = "*"
