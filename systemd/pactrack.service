@@ -1,0 +1,14 @@
+[Unit]
+Description=Pactrack tray updater
+After=graphical-session.target
+Wants=graphical-session.target
+
+[Service]
+Type=simple
+# Set to your installed binary location if needed.
+ExecStart=%h/.cargo/bin/pactrack
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=default.target
