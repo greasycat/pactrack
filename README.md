@@ -2,6 +2,8 @@
 
 Pactrack is an Arch Linux package update tracker with a tray icon and menu.
 
+[![Rust](https://github.com/greasycat/pactrack/actions/workflows/rust.yml/badge.svg)](https://github.com/greasycat/pactrack/actions/workflows/rust.yml)
+
 ## Screenshot
 <img width="2556" height="1406" alt="Image" src="https://github.com/user-attachments/assets/f050b12b-dbdf-4d5d-a809-2bdb7a94fe92" />
 
