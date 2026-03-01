@@ -7,6 +7,17 @@ Pactrack is an Arch Linux package update tracker with a tray icon and menu.
 ## Screenshot
 <img width="2556" height="1406" alt="Image" src="https://github.com/user-attachments/assets/f050b12b-dbdf-4d5d-a809-2bdb7a94fe92" />
 
+## Install from AUR
+```bash
+yay -S pactrack
+```
+
+or 
+
+```bash
+paru -S pactrack
+```
+
 ## Features
 
 - Tray icon with status states: `checking`, `up_to_date`, `updates_available`, `error`
