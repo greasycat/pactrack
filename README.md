@@ -1,4 +1,4 @@
-# pactrack
+# pactrack :crab:
 
 Pactrack is an Arch Linux package update tracker with a tray icon and menu.
 
